@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&family=Open+Sans:wght@500&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Ubuntu+Condensed&display=swap');
+
+
+html, body, div,h1, h2, h3, h4, h5, h6, p,img,ul,li,figure {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.headcontainer {
+    box-shadow: 0px 4px 40px -15px rgba(0, 0, 0, 0.25);
+}
+
+
+.navegacao {
+    padding: 20px ;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 30px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.navegacao ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+
+.navegacao ul a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.navegacao ul a:hover {
+    color: #37268C;
+    text-decoration: underline;
+}
+
+.produtos {
+    margin-top: 30px;
+    width: 800px;
+    background-color: aqua;
+}
+
+.produtos-carrinho {
+    margin-top: 30px;
+    width: 400px;
+    background-color: blueviolet;
+}
+
+.lista-produtos {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card-produtos {
+    height: 300px;
+    width: 270px;
+}
+
+.card-produtos img {
+    height: 40%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-produtos p {
+    margin-top: 8px;
+}
