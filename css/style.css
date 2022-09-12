@@ -55,13 +55,13 @@ html, body, div,h1, h2, h3, h4, h5, h6, p,img,ul,li,figure {
 .produtos {
     margin-top: 30px;
     width: 800px;
-    background-color: aqua;
+    background-color: #fff;
 }
 
 .produtos-carrinho {
     margin-top: 30px;
     width: 400px;
-    background-color: blueviolet;
+    background-color: #fff;
 }
 
 .lista-produtos {
@@ -73,7 +73,7 @@ html, body, div,h1, h2, h3, h4, h5, h6, p,img,ul,li,figure {
 
 .card-produtos {
     height: 300px;
-    width: 270px;
+    width: 260px;
 }
 
 .card-produtos img {
@@ -82,6 +82,84 @@ html, body, div,h1, h2, h3, h4, h5, h6, p,img,ul,li,figure {
     object-fit: contain;
 }
 
-.card-produtos p {
-    margin-top: 8px;
+
+
+ .tipo-produto {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding-left: 5px;
+    height: 25px;
+    width: 75px;
+    color: #F5F5F5;
+    background-color: #37268C;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+
+}
+
+.card-produtos h2 {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: #333333;
+    font-family: 'Inter', sans-serif;;
+    font-size: 16px;
+}
+
+.descricao-produto {
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #828282;
+}
+
+
+.card-produtos span {
+    display: block;
+    margin-top: 10px;
+    margin-left: 5px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #2E245E;
+}
+
+
+.btn-adicionar {
+    border: none;
+    display: block;
+    background-color: #fff;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.btn-adicionar:hover {
+    text-decoration: underline;
+    color: #37268C;
+}
+
+aside {
+    margin-left: 20px;
+}
+form {
+    margin-top: 10px;
+}
+form input {
+    font-family: 'Inter', sans-serif;
+    background-color: lightgray;
+    color: #333333;
+    padding: 2px;
+    border-radius: 1px;
+    border: none;
+    height: 28px;
+    width: 200px;
+}
+
+form button {
+    background-color: #37268C;
+    color: #F5F5F5;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    height: 31px;
 }
