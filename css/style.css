@@ -69,6 +69,7 @@ html, body, div,h1, h2, h3, h4, h5, h6, p,img,ul,li,figure {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 45px;
 }
 
 .card-produtos {
@@ -87,6 +88,7 @@ html, body, div,h1, h2, h3, h4, h5, h6, p,img,ul,li,figure {
  .tipo-produto {
     display: flex;
     align-items: center;
+    text-align: center;
     margin-left: 5px;
     margin-top: 10px;
     padding-left: 5px;

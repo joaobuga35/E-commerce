@@ -13,7 +13,7 @@ const data = [
   },
   {
     id: 2,
-    img: "../img/sapatonOn/meiaNba.jpg",
+    img: "../img/sapatosOn/meiaNba.jpg",
     nameItem: "Meia Nba",
     description:
       "Conforto e elegância em um só lugar, produtos Nba disponíveis para todos.",
@@ -23,42 +23,42 @@ const data = [
   },
   {
     id: 3,
-    img: "../img/sapatonOn/doctorShoes.jpg",
+    img: "../img/sapatosOn/doctorShoes.jpg",
     nameItem: "Sapato Anatômico",
     description:
       "Este sapato anatômico vai mudar o seu conceito sobre conforto e segurança...",
     value: 240,
     addCart: "Adicionar ao carrinho",
-    tag: "Calçados Casuais",
+    tag: "Casuais",
   },
   {
     id: 4,
-    img: "../img/sapatonOn/sapatoDream.jpg",
+    img: "../img/sapatosOn/sapatoDream.jpeg",
     nameItem: "Sapato Dream",
     description:
-      "Feito para ocasiões especias, cheio de estilo e conforto...",
+      "Feito para ocasiões especias, cheio de estilo e conforto para todas as cerimônias",
     value: 300,
     addCart: "Adicionar ao carrinho",
-    tag: "Calçados Casuais",
+    tag: "Casuais",
   },
   {
     id: 5,
-    img: "../img/sapatonOn/newBalance.jpg",
+    img: "../img/sapatosOn/newBalance.jpg",
     nameItem: "Tênis Esportivo NB",
     description:
       "New balance conforto e elegância garantidos na academia, crossfit e caminhada...",
     value: 600,
     addCart: "Adicionar ao carrinho",
-    tag: "Calçados Esportivos",
+    tag: "Esportivos",
   },
   {
     id: 6,
-    img: "../img/sapatonOn/tenisDeBasquete.jpg",
+    img: "../img/sapatosOn/tenisDeBasquete.jpg",
     nameItem: "Tênia de basquete Champhion",
     description:
       "Conforto e estilo é para poucos, este tênis garante tudo isso a cada jogada, experimente...",
     value: 800,
     addCart: "Adicionar ao carrinho",
-    tag: "Calçados Esportivos",
+    tag: "Esportivos",
   },
 ];
