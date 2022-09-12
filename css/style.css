@@ -103,7 +103,7 @@ html, body, div,h1, h2, h3, h4, h5, h6, p,img,ul,li,figure {
     margin-top: 10px;
     margin-left: 5px;
     color: #333333;
-    font-family: 'Inter', sans-serif;;
+    font-family: 'Inter', sans-serif;
     font-size: 16px;
 }
 
@@ -131,7 +131,7 @@ html, body, div,h1, h2, h3, h4, h5, h6, p,img,ul,li,figure {
     display: block;
     background-color: #fff;
     margin-left: 5px;
-    margin-top: 12px;
+    margin-top: 18px;
 }
 
 .btn-adicionar:hover {
@@ -162,4 +162,98 @@ form button {
     border: none;
     font-family: 'Inter', sans-serif;
     height: 31px;
+}
+
+.titulo-carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    width: 281px;
+    height: 32px;
+    margin-top: 20px;
+    background-color: #37268C;
+    color: #F5F5F5;
+}
+
+.lista-carrinho {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 281px;
+    overflow-y: auto;
+    max-height: 300px;
+}
+
+.item-carrinho {
+    display: flex;
+    margin-top: 12px;
+}
+
+.item-carrinho img {
+    width: 65px;
+    height: 80px;
+    object-fit: contain;
+    
+    
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.informacoes h3 {
+    color: #333333;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.informacoes span {
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    color: #2E245E;
+}
+
+.btn-remover {
+    border: none;
+    display: block;
+    background-color: #fff;
+    margin-top: 8px;
+}
+
+.btn-remover:hover {
+    text-decoration: underline;
+    color: #37268C;
+}
+
+.secao-final {
+    background-color: #333333;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 80px;
+    width: 281px;
+}
+
+.quantidade-compras {
+    display: flex;
+    justify-content: center;
+    gap: 125px;
+    padding-top: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    font-size: 14px;
+}
+
+.soma-valores {
+    display: flex;
+    justify-content: center;
+    gap: 123px;
+    padding-top: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #F5F5F5;
+    font-size: 14px;
 }
