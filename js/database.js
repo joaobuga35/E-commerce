@@ -61,4 +61,39 @@ const data = [
     addCart: "Adicionar ao carrinho",
     tag: "Esportivos",
   },
+
+  {
+    id: 7,
+    img: "../img/sapatosOn/blackGold.jpeg",
+    nameItem: "Sapato Black and Gold",
+    description:
+      "Feito para ocasiões especias, cheio de estilo e conforto para todas as cerimônias..",
+    value: 380,
+    addCart: "Adicionar ao carrinho",
+    tag: "Casuais",
+
+  },
+
+  {
+    id: 8,
+    img: "../img/sapatosOn/pontilhado.jpg",
+    nameItem: "Sapato Pontilhado Dourado",
+    description:
+      "Feito para ocasiões especias, destaque para seus pontilhados dourados",
+    value: 580,
+    addCart: "Adicionar ao carrinho",
+    tag: "Casuais",
+
+  },
+
+  {
+    id: 9,
+    img: "../img/sapatosOn/sapatoDeGrife.jpg",
+    nameItem: "Sapato Italiano",
+    description:
+      "Seja destaque em qualquer lugar com esse lindo sapato italiano..",
+    value: 1080,
+    addCart: "Adicionar ao carrinho",
+    tag: "Casuais",
+  }
 ];
