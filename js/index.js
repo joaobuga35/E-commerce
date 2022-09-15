@@ -50,7 +50,9 @@ function addCardsProdutos(lista, localParaAdicionar){
                     document.querySelector('.valor-total').innerHTML = `R$ ${soma}`
                 }
             }
+            verificarCarrinho()
         })
+
         //Alimentando as tags com os seus filhos.
         liProdutos.append(imgProdutos,tipoProdutos,h2Produtos,descricaoProduto,spanProdutos,buttonProdutos)
 
@@ -76,15 +78,15 @@ function criarCarrinhoDeCompras(identificador){
     buttonCarrinho.classList.add('btn-remover')
 
     buttonCarrinho.addEventListener('click', function(event){
-        console.log(event)
         let li = event.path[2];
-        console.log(li)
         li.remove();
         count--
         document.querySelector('.quantidade-produtos').innerHTML = count
 
         soma = soma - identificador.value
         document.querySelector('.valor-total').innerHTML = `R$ ${soma}`
+
+        verificarCarrinho()
     })
 
     imgCarrinho.src = identificador.img 
@@ -98,6 +100,37 @@ function criarCarrinhoDeCompras(identificador){
 
     listaCarrinho.appendChild(liCarrinho)
 }
+
+function verificarCarrinho(){
+    let ulCarrinho = document.querySelector('.lista-carrinho')
+    let divCarrinhoVazio = document.querySelector('.carrinho-vazio')
+ 
+    if (ulCarrinho.children.length === 0) {
+        divCarrinhoVazio.classList.remove('esconder')
+
+    } else {
+        divCarrinhoVazio.classList.add('esconder')
+    }
+
+    verificaCompras()
+}
+
+function verificaCompras(){
+    let ulCarrinho = document.querySelector('.lista-carrinho')
+    let divFinal = document.querySelector('.secao-final')
+    
+    if (ulCarrinho.children.length === 0) {
+        divFinal.classList.add('esconder')
+    } else {
+        divFinal.classList.remove('esconder')
+    }
+}
+verificaCompras()
+
+
+
+
+
 
 
 // Modelos para o DOM
